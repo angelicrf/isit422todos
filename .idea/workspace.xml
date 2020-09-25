@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ae0a114-acd0-4795-8613-7272c367b4dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/NodeToDo/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/NodeToDo/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NodeToDo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/views/error.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/views/index.jade" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodeToDo/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +19,8 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,6 +47,7 @@
           <entry key="ejs" value="47" />
           <entry key="js" value="72" />
           <entry key="json" value="11" />
+          <entry key="md" value="40" />
           <entry key="www" value="38" />
         </counts>
       </usages-collector>
@@ -63,6 +56,7 @@
           <entry key="EJS" value="47" />
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="110" />
+          <entry key="Markdown" value="40" />
         </counts>
       </usages-collector>
     </session>
@@ -70,10 +64,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="22">
+                <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -92,6 +89,7 @@
         <option value="$PROJECT_DIR$/NodeToDo/package.json" />
         <option value="$PROJECT_DIR$/NodeToDo/app.js" />
         <option value="$PROJECT_DIR$/NodeToDo/bin/www" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -127,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,22 +162,18 @@
               <item name="NodeToDo" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="isit422todos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isit422todos" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.22.1" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testtodo/NodeToDo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/npm/lib/node_modules/prettier" />
@@ -215,14 +208,16 @@
       <updated>1601004017248</updated>
       <workItem from="1601004019748" duration="4081000" />
       <workItem from="1601047293639" duration="57000" />
+      <workItem from="1601058227343" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4138000" />
+    <option name="totallyTimeSpent" value="4199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="96" width="1400" height="773" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,10 +280,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+    <entry file="file://$PROJECT_DIR$/views/index.ejs" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
