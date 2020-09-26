@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: antiquewhite;
+  background-color: azure;
 }
 
 a {
@@ -11,5 +11,5 @@ a {
 /* footer style added by Team Yellow */
 
 footer {
-  color: yellow;
+  color: gold;
 }
